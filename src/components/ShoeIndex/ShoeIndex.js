@@ -5,6 +5,7 @@ import { WEIGHTS } from "../../constants";
 
 import Breadcrumbs from "../Breadcrumbs";
 import Select from "../Select";
+import ShoeGrid from "../ShoeGrid";
 import ShoeSidebar from "../ShoeSidebar";
 import Spacer from "../Spacer";
 
@@ -33,7 +34,7 @@ const ShoeIndex = ({ sortId, setSortId }) => {
           </Select>
         </Header>
         <Spacer size={34} />
-        {/* <ShoeGrid /> */}
+        <ShoeGrid />
       </MainColumn>
     </Wrapper>
   );
@@ -41,7 +42,7 @@ const ShoeIndex = ({ sortId, setSortId }) => {
 
 const Wrapper = styled.div`
   display: flex;
-  gap: 32px;
+  gap: 36px;
   align-items: baseline;
 `;
 
